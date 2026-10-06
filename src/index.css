@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #f5f6f8;
+}
+
+main {
+  max-width: 700px;
+  margin: 48px auto;
+  padding: 24px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 12px 0;
+  padding: 16px;
+  background: white;
+  border-radius: 8px;
+}
+
+.error {
+  color: #c62828;
+}
